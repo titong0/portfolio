@@ -1,0 +1,35 @@
+export default [
+  {
+    title: "Pokédex",
+    description: `My first project using an API, it uses a public pokémon API called pokeapi`,
+    thumbnail: "/pokedex.png",
+    url: "https://pokemon-something.netlify.app",
+    size: "medium",
+    bg: "#f18b61",
+  },
+  {
+    title: "Clocks app",
+    description: `App with a timer and stopwatch, learned advanced useEffect and it has a neat design`,
+    thumbnail: "/clocks.png",
+    url: "https://yeah-clocks.netlify.app",
+    size: "small-medium",
+    bg: "#e1acbf",
+  },
+  {
+    title: "Country flags game",
+    description: `My last project; I made this game to test my nextjs knowledge and learned a ton with it`,
+    thumbnail: "/country-game.png",
+    url: "https://guess-the-country-flag.netlify.app",
+    size: "small-medium",
+    bg: "#f1e049",
+  },
+  {
+    title: "A* algorithm visualizer",
+    description: `A simple visualizer for the A star pathfinding algorithm, 
+I did this mostly with the intention of learning something new about algorithms`,
+    thumbnail: "/A-star.png",
+    url: "https://a-star-visualizer.netlify.app",
+    size: "small",
+    bg: "#77b1d9",
+  },
+];
