@@ -1,5 +1,7 @@
 import styles from "./projects.module.scss";
-import Link from "next/link";
+import { IoMdTime } from "react-icons/io";
+import { RiComputerLine } from "react-icons/ri";
+import { BsChevronRight } from "react-icons/bs";
 
 const SIZE_COLORS = {
   small: "green",
@@ -14,7 +16,6 @@ const ProjectThumbnails = ({ projects }) => {
         <div className={styles.thumbnail}>
           <h4
             style={{
-              // background: `linear-gradient(${project.bg}, 85%, #cccccc)`,
               background: project.bg,
             }}
           >
@@ -22,15 +23,23 @@ const ProjectThumbnails = ({ projects }) => {
           </h4>
           <img width="600" src={project.thumbnail} alt={project.title} />
           <div className={styles.content}>
-            <p>{project.description}</p>
+            <p className={styles.description}>{project.description}</p>
             <p>
-              Project size :
-              <span style={{ color: SIZE_COLORS[project.size] }}>
-                {" " + project.size}
+              <RiComputerLine size="30" /> Technologies used:{" "}
+              {project.technologies.join(", ")}
+            </p>
+            <p>
+              <IoMdTime size="30" />
+              <span>
+                Project size:
+                <span style={{ color: SIZE_COLORS[project.size] }}>
+                  {" " + project.size}
+                </span>
               </span>
             </p>
             <a href={project.url} target="_blank" className={styles.CTA}>
               See this project
+              <BsChevronRight size="25" />
             </a>
           </div>
         </div>

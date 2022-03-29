@@ -6,6 +6,7 @@ export default [
     url: "https://pokemon-something.netlify.app",
     size: "medium",
     bg: "#f18b61",
+    technologies: ["React", "Typescript", "Tailwind", "React-router"],
   },
   {
     title: "Clocks app",
@@ -14,6 +15,7 @@ export default [
     url: "https://yeah-clocks.netlify.app",
     size: "small-medium",
     bg: "#e1acbf",
+    technologies: ["React", "React-router"],
   },
   {
     title: "Country flags game",
@@ -22,6 +24,7 @@ export default [
     url: "https://guess-the-country-flag.netlify.app",
     size: "small-medium",
     bg: "#f1e049",
+    technologies: ["React", "Next.js", "Sass"],
   },
   {
     title: "A* algorithm visualizer",
@@ -31,5 +34,6 @@ I did this mostly with the intention of learning something new about algorithms`
     url: "https://a-star-visualizer.netlify.app",
     size: "small",
     bg: "#77b1d9",
+    technologies: ["Javascript", "CSS"],
   },
 ];
