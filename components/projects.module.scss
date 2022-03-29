@@ -43,7 +43,6 @@
   background-color: rgb(139, 127, 182);
   max-width: 600px;
   font-size: 1.5rem;
-  cursor: pointer;
   transition: 400ms;
   h4 {
     border-radius: 8px 8px 0 0;
@@ -66,18 +65,29 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  padding: 1rem;
   height: 100%;
   p {
     padding: 0.5rem;
   }
-  a {
-    margin-bottom: 0.6rem;
-    text-decoration: none;
-    color: rgb(28, 28, 255);
-  }
-  a:hover {
-    text-decoration: underline;
-  }
+}
+
+.CTA {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 1rem 0;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right,
+    #e52d27 0%,
+    hsl(358, 65%, 49%) 51%,
+    #e52d27 100%
+  );
+  box-shadow: 0px 0px 4px 0px;
+  color: white;
 }
 
 @media (max-width: 480px) {
