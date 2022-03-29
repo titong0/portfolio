@@ -13,7 +13,7 @@ const ProjectThumbnails = ({ projects }) => {
   return (
     <>
       {projects.map((project) => (
-        <div className={styles.thumbnail}>
+        <div className={styles.thumbnail} key={project.bg}>
           <h4
             style={{
               background: project.bg,
