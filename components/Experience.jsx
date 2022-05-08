@@ -18,7 +18,7 @@ const Experience = () => {
     <div className={styles.container}>
       <h2>Experience</h2>
       <section className={styles.experience}>
-        <p>
+        <div>
           <span>
             I Have a <em className={styles.great}>great amount</em> of
             experience with
@@ -40,8 +40,8 @@ const Experience = () => {
               <SiNextdotjs size={32}></SiNextdotjs>
             </span>
           </div>
-        </p>
-        <p>
+        </div>
+        <div>
           <span>
             I Have a <em className={styles.good}>good amount</em> of experience
             with
@@ -60,8 +60,8 @@ const Experience = () => {
               <SiNetlify color="#38b1bb" size={32}></SiNetlify>
             </span>
           </div>
-        </p>
-        <p>
+        </div>
+        <div>
           <span>
             I Have a <em className={styles.vague}>vague amount</em> of
             experience with
@@ -74,7 +74,7 @@ const Experience = () => {
               <SiPython color="#3470a2" size={32}></SiPython>
             </span>
           </div>
-        </p>
+        </div>
       </section>
     </div>
   );

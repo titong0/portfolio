@@ -18,9 +18,9 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  text-shadow: hsl(2, 79%, 53%) 2px 2px 4px;
   font-size: 4rem;
   font-weight: 100;
-  color: vars.$color;
 }
 
 @media (min-width: 480px) {
