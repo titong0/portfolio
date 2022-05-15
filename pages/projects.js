@@ -1,5 +1,6 @@
-import styles from "./projects.module.scss";
-import ProjectThumbnails from "./ProjectThumbnails";
+import styles from "../components/projects.module.scss";
+import ProjectThumbnails from "../components/ProjectThumbnails";
+import Experience from "../components/Experience";
 import PROJECTS from "../projects";
 
 const Projects = () => {
@@ -11,6 +12,7 @@ const Projects = () => {
       <div className={styles.thumbnailsContainer}>
         <ProjectThumbnails projects={PROJECTS} />
       </div>
+      <Experience />
     </section>
   );
 };

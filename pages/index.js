@@ -1,7 +1,5 @@
-import Projects from "../components/Projects";
-import Experience from "../components/Experience";
-import Hero from "../components/Hero";
 import Head from "next/head";
+import Hero from "../components/Hero";
 const index = () => {
   return (
     <>
@@ -12,8 +10,6 @@ const index = () => {
       </Head>
       <div>
         <Hero />
-        <Projects />
-        <Experience />
       </div>
     </>
   );

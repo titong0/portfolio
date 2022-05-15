@@ -1,0 +1,44 @@
+@use "../variables" as vars;
+
+.container {
+  padding: 1rem 1rem 2rem;
+  background-color: lighten($color: vars.$bg, $amount: 10);
+  min-height: 100px;
+  h3 {
+    font-size: 2rem;
+    color: vars.$color;
+    margin-bottom: 1rem;
+  }
+}
+
+.contact {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+  width: fit-content;
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  + .contact {
+    margin-top: 1rem;
+  }
+  ::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 0px;
+    border-bottom: white solid 2px;
+    transition: 700ms;
+  }
+  :hover ::after {
+    width: 85%;
+  }
+}
+
+.highlight {
+  color: vars.$primary;
+}

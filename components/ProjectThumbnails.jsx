@@ -12,7 +12,7 @@ const ProjectThumbnails = ({ projects }) => {
           <h4>{project.title}</h4>
           <Image
             width="600"
-            height="360"
+            height="300"
             src={project.thumbnail}
             alt={project.title}
           />

@@ -5,11 +5,11 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh;
   background: repeating-linear-gradient(45deg, #56565630, transparent 100px);
 }
 
 .title {
+  margin-top: 3rem;
   padding: 2.5rem;
   font-family: Cardo;
   font-size: 3rem;
@@ -21,7 +21,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   justify-items: center;
-  gap: 2rem;
+  gap: 4rem;
   margin: 0 1rem 5rem;
   width: 90%;
   background: radial-gradient(
@@ -40,7 +40,7 @@
   align-items: center;
   border: 1px solid vars.$color;
   background-color: rgb(204, 204, 204);
-  max-width: 550px;
+  max-width: 450px;
   font-size: 1.1rem;
   h4 {
     background-color: rgb(12, 12, 12);
