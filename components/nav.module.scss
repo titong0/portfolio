@@ -10,19 +10,44 @@
   width: 100%;
   height: 50px;
   background-color: vars.$bg;
-  a {
-    text-decoration: none;
-    color: white;
+}
+
+.nav a {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 1px;
+  transition: 300ms ease-in;
+  border: 1px solid transparent;
+  &:hover {
+    background-color: transparentize($color: vars.$primary, $amount: 0.8);
+    border-color: vars.$primary;
   }
 }
 
 .home a {
   font-weight: 100;
+  color: white;
   text-shadow: vars.$primary 3px 2px 1px;
+  text-decoration: none;
 }
+
 .navLinks {
   display: flex;
   align-items: center;
   list-style: none;
   gap: 1rem;
+}
+
+.link a {
+  text-decoration: none;
+  color: rgb(184, 184, 184);
+}
+
+.selected a {
+  text-decoration: underline;
+  color: white;
+  &:hover {
+    border-color: transparent;
+    background-color: transparent;
+  } 
 }

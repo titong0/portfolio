@@ -1,9 +1,12 @@
 @use "../variables" as vars;
 
 .heroContainer {
-  text-align: center;
-  height: 90vh;
+  display: flex;
+  justify-content: center;
   position: relative;
+  width: 100%;
+  height: 90vh;
+  text-align: center;
   svg {
     position: absolute;
     bottom: 4rem;
@@ -36,17 +39,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0.8rem;
+  margin: 0.8rem 0;
   gap: 0.6rem;
   a {
-    padding: 0.3rem;
+    width: 300px;
+    padding: 0.7rem;
     font-weight: 300;
     color: aliceblue;
     text-decoration: none;
-    transition: 300ms;
-    border: 2px solid transparent;
+    transition: 300ms ease-in;
+    border: 2px solid transparentize($color: vars.$primary, $amount: 0.9);
     &:hover {
-      border: 2px solid saturate($color: vars.$primary, $amount: 80);
+      background-color: transparentize($color: vars.$primary, $amount: 0.8);
+      border-color: vars.$primary;
     }
   }
 }

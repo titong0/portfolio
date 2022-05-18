@@ -14,10 +14,13 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Montserrat:wght@300;400&display=swap"
           rel="stylesheet"
         />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        
       </Head>
       <body>
         <Main />
-        <NextScript  />
+        <NextScript />
       </body>
     </Html>
   );
