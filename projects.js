@@ -1,5 +1,15 @@
 export default [
   {
+    title: "Album coverify",
+    description: `Site to replicate various album covers. I learned about pixel manipulation and went with a clean, simple and easy design for it.
+      `,
+    thumbnail: "/Album-coverify.png",
+    url: "https://album-coverify.vercel.app",
+    size: "medium",
+
+    technologies: ["React", "Next.js", "Tailwind"],
+  },
+  {
     title: "Cuándo llega roca",
     description: `A website to get easier access to a huge train timetable. One of my most polished projects and definitely learned a lot with it`,
     thumbnail: "/cuando-llega.png",
@@ -28,21 +38,11 @@ export default [
   },
   {
     title: "Country flags game",
-    description: `My last project; I made this game to test my nextjs knowledge and learned a ton with it`,
+    description: `Fairly simple game I made to test my nextjs knowledge and learned a ton with it`,
     thumbnail: "/country-game.png",
     url: "https://guess-the-country-flag.netlify.app",
     size: "small-medium",
 
     technologies: ["React", "Next.js", "Sass"],
-  },
-  {
-    title: "A* algorithm visualizer",
-    description: `A simple visualizer for the A star pathfinding algorithm, 
-I did this mostly with the intention of learning something new about algorithms`,
-    thumbnail: "/A-star.png",
-    url: "https://a-star-visualizer.netlify.app",
-    size: "small",
-
-    technologies: ["Javascript", "CSS"],
   },
 ];

@@ -27,8 +27,8 @@ const About = () => {
         </p>
         <br />
         <p>
-          While english I can fluently speak english, I think that one can never
-          fully know a language so I'm always learning.
+          While I can fluently speak english, I think that one can never fully
+          know a language so I'm always learning.
         </p>
       </div>
     </div>

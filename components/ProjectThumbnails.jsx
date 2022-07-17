@@ -11,8 +11,8 @@ const ProjectThumbnails = ({ projects }) => {
         <div className={styles.thumbnail} key={project.title}>
           <h4>{project.title}</h4>
           <Image
-            width="600"
-            height="300"
+            width="576"
+            height="288"
             src={project.thumbnail}
             alt={project.title}
           />
