@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .cool-underline::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0px;
+    border-bottom: white solid 2px;
+    transition: 300ms;
+  }
+  .cool-underline:hover::after {
+    width: 100%;
+  }
+}

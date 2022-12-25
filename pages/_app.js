@@ -1,4 +1,4 @@
-import "../app.scss";
+import "../index.css";
 import Head from "next/head";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
@@ -10,6 +10,8 @@ const App = ({ Component, pageProps }) => {
         <title>Augusto Errecarte</title>
       </Head>
       <Nav />
+      {/* invisible, same height as navbar */}
+      <div className="h-16 sm:h-12"></div>
       <Component {...pageProps} />
       <Footer />
     </>

@@ -1,10 +1,9 @@
 import Hero from "../components/Hero";
-const index = () => {
+const Index = () => {
   return (
     <>
       <Hero />
     </>
   );
 };
-
-export default index;
+export default Index;

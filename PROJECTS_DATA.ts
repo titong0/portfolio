@@ -1,21 +1,22 @@
-export default [
-  {
-    title: "Album coverify",
-    description: `Site to replicate various album covers. I learned about pixel manipulation and went with a clean, simple and easy design for it.
-      `,
-    thumbnail: "/Album-coverify.png",
-    url: "https://album-coverify.vercel.app",
-    size: "medium",
+import { ProjectThumbData } from "./src/types";
 
-    technologies: ["React", "Next.js", "Tailwind"],
-  },
+const DATA: Array<ProjectThumbData> = [
+  // {
+  //   title: "Album coverify",
+  //   description: `Site to replicate various album covers. I learned about pixel manipulation and went with a clean, simple and easy design for it.
+  //     `,
+  //   thumbnail: "/Album-coverify.png",
+  //   url: "https://album-coverify.vercel.app",
+  //   size: "medium",
+
+  //   technologies: ["React", "Next.js", "Tailwind"],
+  // },
   {
     title: "Cuándo llega roca",
     description: `A website to get easier access to a huge train timetable. One of my most polished projects and definitely learned a lot with it`,
     thumbnail: "/cuando-llega.png",
     url: "https://cuando-llega-roca.vercel.app",
     size: "medium",
-
     technologies: ["React", "Next.js", "Sass"],
   },
   {
@@ -42,7 +43,8 @@ export default [
     thumbnail: "/country-game.png",
     url: "https://guess-the-country-flag.netlify.app",
     size: "small-medium",
-
     technologies: ["React", "Next.js", "Sass"],
   },
 ];
+
+export default DATA;
