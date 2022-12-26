@@ -2,11 +2,11 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <header className="flex items-center justify-center w-full h-screen bg-amber-100">
+    <header className="flex items-center justify-center w-full h-screen bg-stone-100">
       <h1 className="text-center">
         <span
           // "text-7xl font-extrabold text-amber-300 drop-shadow-lg "
-          className="text-6xl font-bold font-[Poppins] text-indigo-700 drop-shadow-lg shadow-black"
+          className="text-6xl font-bold font-[Poppins] text-amber-700 shadow-black"
         >
           Augusto Errecarte
         </span>

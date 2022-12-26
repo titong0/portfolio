@@ -9,7 +9,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="fixed top-0 z-10 flex items-center justify-between w-full h-16 px-5 text-lg border-b bg-emerald-300 sm:text-base sm:h-12 text-stone-900">
+    <nav className="fixed top-0 z-10 flex items-center justify-between w-full h-16 px-5 text-lg bg-blue-300 border-b sm:text-base sm:h-12 text-stone-900">
       <h2 className={`cool-underline ${getSelectedStyle("/")}`}>
         <Link href="/">A.E</Link>
       </h2>

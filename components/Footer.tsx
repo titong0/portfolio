@@ -3,7 +3,7 @@ import { AiOutlineMail, AiOutlineGithub } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col p-4 bg-emerald-300">
+    <footer className="flex flex-col p-4 bg-blue-300">
       <h3 className="text-xl font-medium">Contact me</h3>
       <ul className="my-2">
         <li className="flex gap-2 mb-2">

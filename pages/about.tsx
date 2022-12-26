@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-blue-300">
+    <div className="min-h-screen bg-stone-100">
       <div className="">
         <h1 className="py-3 text-2xl font-bold text-center">About me</h1>
         <h2 className="ml-2 text-xl font-medium leading-8">Me</h2>
@@ -32,7 +32,7 @@ const About = () => {
           I also like photography. Mostly just my pets but I like to photograph
           everything.
         </p>
-        <div className="grid grid-cols-4 ml-2 bg-stone-100">
+        <div className="grid grid-cols-4 ml-2 bg-amber-200">
           <Image
             className="h-auto p-1"
             alt="My dog poroto"

@@ -5,7 +5,7 @@ import PROJECTS from "../PROJECTS_DATA";
 
 const Projects = () => {
   return (
-    <section className="flex flex-col items-center justify-center bg-violet-300">
+    <section className="flex flex-col items-center justify-center bg-stone-100">
       <header className="flex flex-col items-center justify-center mx-2 my-20 text-center">
         <h2
           className="text-4xl font-extrabold text-indigo-700 "
