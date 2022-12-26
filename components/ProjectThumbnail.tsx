@@ -8,11 +8,11 @@ import { ProjectThumbData } from "../src/types";
 const ProjectThumbnails = ({
   project,
   bgClass,
-  hoverBg,
+  buttonHoverBg,
 }: {
   project: ProjectThumbData;
   bgClass: `bg-${string}-${number}`;
-  hoverBg: `bg-${string}-${number}`;
+  buttonHoverBg: `bg-${string}-${number}`;
 }) => {
   // const color =
   return (
@@ -46,11 +46,11 @@ const ProjectThumbnails = ({
           <a
             href={project.url}
             target="_blank"
-            className={`flex w-full p-3 transition
-            bg-transparent border-2 border-b-4 rounded-md 
+            className={`flex w-full p-3 transition border-2 border-b-4 rounded-md
+            text-white bg-indigo-500
             shadow-[-2px_4px_5px_1px_rgba(0,0,0,0.5)] 
             hover:shadow-[-1px_2px_3px_1px_rgba(0,0,0,0.5)] 
-            hover:${hoverBg} `}
+             `}
           >
             See this project
             {/* <BsChevronRight size="25" fontWeight="100" />  */}
