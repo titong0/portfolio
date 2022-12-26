@@ -13,7 +13,7 @@ const Projects = () => {
         >
           Other projects
         </h2>
-        <span className="mx-12">
+        <span className="mx-12 italic">
           (That dont have as much things for me to talk about)
         </span>
       </header>

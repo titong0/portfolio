@@ -1,11 +1,10 @@
 import Link from "next/link";
-import styles from "./nav.module.scss";
 import { useRouter } from "next/router";
 
 const Nav = () => {
   const router = useRouter();
 
-  const getSelectedStyle = (route) => {
+  const getSelectedStyle = (route: string) => {
     return router.asPath === route ? "underline" : "";
   };
 

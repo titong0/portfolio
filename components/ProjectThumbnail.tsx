@@ -18,7 +18,7 @@ const ProjectThumbnails = ({
   return (
     <>
       <div className={`flex flex-col w-full ${bgClass}`} key={project.title}>
-        <h4 className="py-3 text-2xl text-center">{project.title}</h4>
+        <h4 className="py-3 text-2xl font-bold text-center">{project.title}</h4>
         <div className="flex items-end justify-center w-full">
           <Image
             className="outline outline-black sm:w-2/3"
@@ -50,7 +50,7 @@ const ProjectThumbnails = ({
             bg-transparent border-2 border-b-4 rounded-md 
             shadow-[-2px_4px_5px_1px_rgba(0,0,0,0.5)] 
             hover:shadow-[-1px_2px_3px_1px_rgba(0,0,0,0.5)] 
-            hover:${hoverBg}`}
+            hover:${hoverBg} `}
           >
             See this project
             {/* <BsChevronRight size="25" fontWeight="100" />  */}
