@@ -13,7 +13,7 @@ const DATA: Array<ProjectThumbData> = [
   // },
   {
     title: "Cuándo llega roca",
-    description: `A website to get easier access to a huge train timetable. One of my most polished projects and definitely learned a lot with it`,
+    description: `A website to get easier access to a huge train timetable. Used the next pages/api folder for the backend. Main goal was performance and ease of use and I think I succeeded at it.`,
     thumbnail: "/cuando-llega.png",
     url: "https://cuando-llega-roca.vercel.app",
     size: "medium",
@@ -21,7 +21,7 @@ const DATA: Array<ProjectThumbData> = [
   },
   {
     title: "Pokédex",
-    description: `My first project using an API, it uses a public pokémon API called pokeapi`,
+    description: `My first project using an API, it uses a public pokémon API called pokeapi to gather various stats. I learned about fetching data and, since most endpoints have too much data, this project made me interested in learning next.js.`,
     thumbnail: "/pokedex.png",
     url: "https://pokemon-something.netlify.app",
     size: "medium",
@@ -30,7 +30,7 @@ const DATA: Array<ProjectThumbData> = [
   },
   {
     title: "Clocks app",
-    description: `App with a timer and stopwatch, learned advanced useEffect and it has a neat design`,
+    description: `A simple app with a timer and stopwatch, learned about useEffect and really enjoyed working with this type of design.`,
     thumbnail: "/clocks.png",
     url: "https://yeah-clocks.netlify.app",
     size: "small-medium",
@@ -39,7 +39,7 @@ const DATA: Array<ProjectThumbData> = [
   },
   {
     title: "Country flags game",
-    description: `Fairly simple game I made to test my nextjs knowledge and learned a ton with it`,
+    description: `A game that consists in matching flags with country names. The logic is actually a bit complex, so I took the opportunity and learned to use custom hooks.`,
     thumbnail: "/country-game.png",
     url: "https://guess-the-country-flag.netlify.app",
     size: "small-medium",
