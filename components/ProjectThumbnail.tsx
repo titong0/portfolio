@@ -8,17 +8,15 @@ import { ProjectThumbData } from "../src/types";
 const ProjectThumbnails = ({
   project,
   bgClass,
-  buttonHoverBg,
 }: {
   project: ProjectThumbData;
-  bgClass: `bg-${string}-${number}`;
-  buttonHoverBg: `bg-${string}-${number}`;
+  bgClass: string;
 }) => {
   // const color =
   return (
     <>
-      <div className={`flex flex-col w-full ${bgClass}`} key={project.title}>
-        <h4 className="py-3 text-2xl font-bold text-center">{project.title}</h4>
+      <div className={`flex flex-col w-full ${bgClass}`}>
+        <h4 className="py-5 text-2xl font-bold text-center">{project.title}</h4>
         <div className="flex items-end justify-center w-full">
           <Image
             className="outline outline-black sm:w-2/3"

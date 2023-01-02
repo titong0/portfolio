@@ -20,12 +20,16 @@ const Projects = () => {
       <div className="grid align-top sm:grid-cols-2">
         {PROJECTS.map((project, index) => {
           // this is a cool way to create the pattern I think
-          const isRedBg = [true, false, false, true][index % 4];
+          const isRedBgDesktop = [true, false, false, true][index % 4];
+          const desktopBg = isRedBgDesktop
+            ? "sm:bg-red-300"
+            : "sm:bg-emerald-200";
+          const mobileBg = index % 2 == 0 ? "bg-red-300" : "bg-emerald-200";
           return (
             <ProjectThumbnails
+              key={project.title}
               project={project}
-              bgClass={isRedBg ? "bg-red-300" : "bg-emerald-200"}
-              buttonHoverBg={isRedBg ? "bg-red-400" : "bg-emerald-300"}
+              bgClass={`${mobileBg} ${desktopBg}`}
             />
           );
         })}
