@@ -15,15 +15,15 @@ import {
 
 const Experience = () => {
   return (
-    <div className="flex flex-col w-full max-w-xl pb-4 ">
+    <div className="flex flex-col w-full max-w-xl p-2 pb-4">
       <h2 className="my-6 text-3xl">Experience</h2>
-      <section className="grid gap-3">
-        <div className="grid grid-cols-2 gap-2">
+      <section className="flex flex-col gap-3">
+        <div className="grid gap-2 sm:grid-cols-2">
           <span>
             I Have a <em className="text-green-600">great amount</em> of
             experience with
           </span>
-          <div className="flex gap-1 text-stone-200 sm:flex-wrap">
+          <div className="flex flex-wrap gap-1 text-stone-200">
             <span
               className="p-2 rounded-md"
               style={{ backgroundColor: "#7bc0c8" }}
@@ -69,7 +69,7 @@ const Experience = () => {
             </span>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-1">
+        <div className="grid gap-1 sm:grid-cols-2">
           <span>
             I Have a <em className="text-amber-500">good amount</em> of
             experience with
@@ -95,7 +95,7 @@ const Experience = () => {
             </span>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-1">
+        <div className="grid gap-1 sm:grid-cols-2">
           <span>
             I Have a <em className="text-red-700">vague amount</em> of
             experience with
