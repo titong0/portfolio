@@ -24,7 +24,7 @@ const Nav = () => {
     // </nav>
     <nav className="fixed transition -translate-x-6 -translate-y-6 hover:blur-none blur-[2px] hover:-translate-y-3 hover:-translate-x-3">
       <Link href="/">
-        <div className="p-6 text-xl bg-blue-400 rounded-full">A.E</div>
+        <div className="p-6 text-xl rounded-full bg-amber-400">A.E</div>
       </Link>
     </nav>
   );
