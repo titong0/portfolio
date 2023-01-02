@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <header className="flex items-center justify-center w-full h-screen bg-stone-100">
+    <header className="flex items-center justify-center w-full h-screen bg-[#FFF0C9]">
       <h1 className="text-center">
         <span
           // "text-7xl font-extrabold text-amber-300 drop-shadow-lg "
