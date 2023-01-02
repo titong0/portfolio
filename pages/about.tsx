@@ -1,5 +1,13 @@
 import Image from "next/image";
 
+const now = new Date();
+
+let myAge = now.getFullYear() - new Date("10/13/2005").getFullYear();
+const hadBirthdayThisYear =
+  now.getMonth() > 10 || (now.getMonth() == 10 && now.getDay() >= 13);
+
+myAge -= hadBirthdayThisYear ? 0 : 1;
+
 const About = () => {
   return (
     <div className=" bg-stone-100">
@@ -7,10 +15,13 @@ const About = () => {
         <h1 className="py-3 text-2xl font-bold text-center">About me</h1>
         <h2 className="ml-2 text-xl font-medium leading-8">Me</h2>
         <p className="ml-2">
-          I'm a really passionate 16 year old developer from Argentina. I
-          started learning web development in 2020 and to this day I'm always
-          trying to be better. I really enjoy incorporating new technologies but
-          I generally prefer to
+          I'm a really passionate{" "}
+          <code className="p-1 rounded-md bg-zinc-800 text-amber-600">
+            {myAge}
+          </code>{" "}
+          year old developer from Argentina. I started learning web development
+          in 2020 and to this day I'm always trying to be better. I really enjoy
+          incorporating new technologies but I generally prefer to
           <em className="italic"> specialize</em> in one at a time.
         </p>
         <p className="ml-2">
