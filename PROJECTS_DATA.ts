@@ -1,16 +1,15 @@
 import { ProjectThumbData } from "./src/types";
 
 const DATA: Array<ProjectThumbData> = [
-  // {
-  //   title: "Album coverify",
-  //   description: `Site to replicate various album covers. I learned about pixel manipulation and went with a clean, simple and easy design for it.
-  //     `,
-  //   thumbnail: "/Album-coverify.png",
-  //   url: "https://album-coverify.vercel.app",
-  //   size: "medium",
-
-  //   technologies: ["React", "Next.js", "Tailwind"],
-  // },
+  {
+    title: "Album coverify",
+    description:
+      "Site to replicate various album covers. While the code behind making the covers is simple, Abstracting common logic required a lot of learning, I had to learn some weird architectural patterns. After a major rewrite, the code is now way cleaner and available on github.",
+    thumbnail: "/Album-coverify.png",
+    url: "https://album-coverify.vercel.app",
+    size: "medium-large",
+    technologies: ["React", "Next.js", "Tailwind", "Typescript"],
+  },
   {
     title: "Cuándo llega roca",
     description: `A website to get easier access to a huge train timetable. Used the next pages/api folder for the backend. Main goal was performance and ease of use and I think I succeeded at it.`,
