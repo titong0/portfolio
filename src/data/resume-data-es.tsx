@@ -1,13 +1,13 @@
-import { GitHubIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Augusto Errecarte",
   initials: "AE",
   location: "La Plata, Argentina",
   locationLink: "https://maps.app.goo.gl/wWm12PGwC9GGmqUZ9",
-  about: "Passionate about learning and getting the details right.",
+  about: "Apasionado por aprender y perfeccionar los detalles.",
   summary:
-    "Programming is an empowering skill, and I like using it to build the websites I want to use. Ranging from games to actually useful apps that attempt to make my life easier.",
+    "Programar es una habilidad empoderante, y me gusta usarla para desarrollar los sitios web que yo mismo usaría. Desde juegos hasta aplicaciones realmente útiles que facilitan mi vida.",
   avatarUrl: "",
   personalWebsiteUrl: "https://augusto-errecarte.vercel.app",
   contact: {
@@ -20,7 +20,7 @@ export const RESUME_DATA = {
         icon: GitHubIcon,
       },
       {
-        name: "X / Twitter (spanish)",
+        name: "X / Twitter (español)",
         url: "https://x.com/titong0",
         icon: XIcon,
       },
@@ -30,13 +30,13 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Escuela de Lenguas",
-      degree: "Intermediate / Advanced english course",
+      degree: "Curso de inglés intermedio / avanzado",
       start: "2010",
       end: "2020",
     },
     {
-      school: "My home",
-      degree: "Self-teaching web development",
+      school: "Mi hogar",
+      degree: "Autodidacta en desarrollo web",
       start: "2020",
       end: "∞",
     },
@@ -53,7 +53,7 @@ export const RESUME_DATA = {
       title: "Riffify",
       techStack: ["TypeScript", "Next.js", "Supabase", "Radix UI"],
       description:
-        "A web app to play heardle for any artist. Scrapes youtube data so it could be down at any time.",
+        "Una aplicación web para jugar Heardle con cualquier artista. Hace scraping de datos de YouTube, por lo que podría estar fuera de servicio en cualquier momento.",
       link: {
         label: "riffify.vercel.app",
         href: "https://riffify.vercel.app",
@@ -62,7 +62,7 @@ export const RESUME_DATA = {
     {
       title: "Foro promedios",
       techStack: ["TypeScript", "Remix", "Drizzle", "MySQL"],
-      description: "Tribute website to the old promedios forum.",
+      description: "Sitio web tributo al antiguo foro de promiedos.",
       link: {
         label: "foro-promedios.vercel.app",
         href: "https://foro-promedios.vercel.app",
@@ -71,7 +71,8 @@ export const RESUME_DATA = {
     {
       title: "Album-coverify",
       techStack: ["TypeScript", "Next.js", "HTML canvas"],
-      description: "Website to insert photos into various album covers.",
+      description:
+        "Sitio web para insertar fotos propias en varias portadas de álbumes.",
       link: {
         label: "album-coverify.vercel.app",
         href: "https://album-coverify.vercel.app",
@@ -81,16 +82,16 @@ export const RESUME_DATA = {
       title: "Cuando llega mejor",
       techStack: ["TypeScript", "Next.js 13", "Tanstack Query"],
       description:
-        "Web app to see realtime location of buses in La Plata using their API.",
+        "Aplicación web para ver la ubicación en tiempo real de los colectivos en La Plata utilizando su API.",
       link: {
         label: "micros.vercel.app",
         href: "https://micros.vercel.app/",
       },
     },
     {
-      title: "Guess the country flags game",
+      title: "Juego de adivinar banderas de países",
       techStack: ["Javascript", "Next.js"],
-      description: "Little game about guessing flags I made a while ago.",
+      description: "Juego sobre adivinar banderas que hice hace un tiempo.",
       link: {
         label: "guess-the-country-flag.netlify.app/",
         href: "https://guess-the-country-flag.netlify.app//",
